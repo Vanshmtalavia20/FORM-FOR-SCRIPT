@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form FOR SCRIPT</title>
+    <style>
+   .main
+   {
+     height: 320px;
+     width: 550px;
+     background: rgb(176, 176, 236);
+     /* border: 2px solid; */
+    text-align: center;
+     padding-top: 20px;
+     margin: 100px auto;
+   }
+
+   .main input
+   {
+      width: 80%;
+      height: 50px;
+      border-radius: 5px;
+      border: none;
+   }
+
+   .main .i1
+   {
+    height: 45px;
+     width: 100px;
+     border-radius: 10px;
+   }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p>FILL THE FORM CORRECTLY</p>
+        <form action=""></form>
+
+       <p><input type="text" title="Text only No Numbers" placeholder="PLEASE WRITE YOUR NAME HERE" required pattern="[a-zA-z]{3,5  }" title="min 3 and max 5"></p>
+       <p><input type="email" title="email only" placeholder="ENTER YOUR CORRECT E-MAIL ID "></p>
+       <p><input type="password" title="Include password having upper and lower case with special char." placeholder="ENTER YOUR PASSWORD" minlength="3" maxlength="8"></p>
+
+     <input class="i1" type="submit">
+    </form>
+
+    </div>
+</body>
+</html>
